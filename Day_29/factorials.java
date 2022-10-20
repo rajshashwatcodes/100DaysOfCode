@@ -4,6 +4,10 @@ public class factorial {
 
     public static void printFactorial(int n) {
         // loop
+        if(n < 0 ) {
+            System.out.println("Invalid Number");
+            return;
+        }
         int facto = 1;
         for(int i = n; i >= 1; i--) {
             facto = facto * i;
