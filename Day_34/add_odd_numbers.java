@@ -1,4 +1,3 @@
-package day16;
 import java.util.*;
 
 public class addOddNos {
