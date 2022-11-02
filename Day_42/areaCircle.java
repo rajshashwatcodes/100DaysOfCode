@@ -1,4 +1,3 @@
-package day21;
 import java.util.*;
 
 public class areaCircle {
