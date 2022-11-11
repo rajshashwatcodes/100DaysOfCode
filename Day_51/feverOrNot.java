@@ -1,4 +1,3 @@
-package day27;
 import java.util.*;
 
 public class feverOrNot {
