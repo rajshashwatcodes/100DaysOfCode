@@ -1,4 +1,3 @@
-package day31;
 import java.util.*;
 
 public class while1ton {
