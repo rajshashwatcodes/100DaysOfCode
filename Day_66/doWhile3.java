@@ -11,7 +11,7 @@ public class doWhile3 {
             i++;
         }
         while(i <= j);
-        System.out.println("'Hello world' printed 10 times");
+        System.out.println("'I am Learning Java!' printed" + j + "times");
         sc.close();
     }
 }
