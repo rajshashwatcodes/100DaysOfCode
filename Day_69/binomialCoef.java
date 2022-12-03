@@ -8,10 +8,10 @@ public class binomialCoef {
             for(int i = n; i >= 1; i--) {
                 j = j*i;
             }
-            for(int i = r; i >= r; i--) {
+            for(int i = r; i >= 1; i--) {
                 k = k * i;
             }
-            for(int i = n-r ; i >= n-r; i--) {
+            for(int i = n-r ; i >= 1; i--) {
                 l = l * i;
             }
             // nCr = n!/(r! (n-r)!)
