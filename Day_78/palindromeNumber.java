@@ -1,4 +1,3 @@
-package day40;
 import java.util.*;
 
 public class palindromeNumber {
