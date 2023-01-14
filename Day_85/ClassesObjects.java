@@ -1,3 +1,5 @@
+package day50;
+
 class Box {
     double width;
     double height;
@@ -6,9 +8,9 @@ class Box {
     // display volume of a box(method)
 
     double volume() {
-        System.out.print("Volume is: ");
-        System.out.print(width * height * length);
+        return width * height * length;
     }
+    
 }
 
 public class ClassesObjects {
@@ -33,8 +35,7 @@ public class ClassesObjects {
 
         double volume2 = mybox2.volume();
 
-        System.out.println(volume1);
-        System.out.println(volume2);
-
+        System.out.println("The volume is : " + volume1 + " sq meters");
+        System.out.println("The volume is : " + volume2 + " sq meters");
     }
 }
