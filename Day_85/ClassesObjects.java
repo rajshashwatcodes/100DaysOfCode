@@ -1,5 +1,3 @@
-package day50;
-
 class Box {
     double width;
     double height;
