@@ -31,7 +31,6 @@ public class DetectCycleInLinkedList {
     }
 
     public static void main(String[] args) {
-        // Create a sample linked list with a cycle: 1 -> 2 -> 3 -> 4 -> 5 -> 2 (points back to 2)
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
